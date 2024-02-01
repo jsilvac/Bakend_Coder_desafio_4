@@ -11,7 +11,6 @@ const __dirname = dirname(__filename)
 const app = express();
 const PORT = 8080;
 
-
 //midlewares
 app.use(express.json());
 app.use(express.urlencoded({ extended: true}))
